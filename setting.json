@@ -1,0 +1,102 @@
+{
+  
+"todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+"todo-tree.general.tags": [
+ "todo", //add tag from here 
+ "bug",
+ "tag",
+ "done",
+ "mark",
+ "test",
+ "update",
+ "fixme",
+ "shit"
+],
+"todo-tree.regex.regexCaseSensitive": false,
+"todo-tree.highlights.defaultHighlight": {
+ 
+ "foreground": "black", 
+ "background": "yellow",
+ "icon": "check",
+ "rulerColour": "yellow", 
+ "type": "tag", 
+ "iconColour": "yellow" 
+},
+"todo-tree.highlights.customHighlight": {
+
+ "todo": {
+   "icon": "alert", 
+   "background": "#F9D569", 
+   "rulerColour": "#F9D569", 
+   "iconColour": "#F9D569" 
+ },
+
+
+ "bug": {
+   "background": "#E36777",
+   "icon": "bug",
+   "rulerColour": "#E36777",
+   "iconColour": "#E36777"
+ },
+
+
+ "tag": {
+   "background": "#9FD8FF",
+   "icon": "tag",
+   "rulerColour": "#9FD8FF",
+   "iconColour": "#9FD8FF",
+   "rulerLane": "full"
+ },
+
+
+ "done": {
+   "background": "#5eec95",
+   "icon": "verified",
+   "rulerColour": "#5eec95",
+   "iconColour": "#5eec95"
+ },
+
+
+ "mark": {
+   "background": "#f90",
+   "icon": "note",
+   "rulerColour": "#f90",
+   "iconColour": "#f90"
+ },
+
+
+ "test": {
+   "background": "#C39EE2",
+   "icon": "flame",
+   "rulerColour": "#C39EE2",
+   "iconColour": "#C39EE2"
+ },
+
+
+ "update": {
+   "background": "#F690AA",
+   "icon": "sync",
+   "rulerColour": "#F690AA",
+   "iconColour": "#F690AA"
+ },
+
+ "fixme": {
+   "background": "#FFB599",
+   "icon": "tools",
+   "rulerColour": "#FFB599",
+   "iconColour": "#FFB599"
+ },
+
+ "shit": {
+  "background": "#999bff",
+  "icon": "tools",
+  "rulerColour": "#999bff",
+  "iconColour": "#999bff"
+}
+},
+
+
+"todo-tree.tree.expanded": true,
+"todo-tree.tree.buttons.export": true
+
+}
